@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'redis.clients'
+archiveBaseName = 'gedis'
+version = '1.2.0'
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.8.1'
+}
+
+
+/*
+TODO: Customize for deployment
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: "file://localhost/repo/") {
+            authentication(userName: "user", password: "pass")
+        }
+    }
+}
+*/
