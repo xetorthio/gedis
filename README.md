@@ -2,7 +2,7 @@
 
 Gedis is a Groovy Redis client.
 
-It uses Jedis internally so it is fully compatible with Redis 2.0.0.
+It uses http://github.com/xetorthio/jedis internally so it is fully compatible with Redis 2.0.0.
 
 ## Community
 
