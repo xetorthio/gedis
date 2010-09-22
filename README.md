@@ -1,8 +1,8 @@
 # Gedis
 
-Gedis is a Groovy Redis client.
+Gedis is a Groovy [Redis](http://github.com/antirez/redis "Redis") client.
 
-It uses http://github.com/xetorthio/jedis internally so it is fully compatible with Redis 2.0.0.
+It uses [Jedis](http://github.com/xetorthio/jedis "Jedis") internally so it is fully compatible with Redis 2.0.0.
 
 ## Community
 
@@ -11,10 +11,10 @@ Meet us on IRC: ##jedis on freenode.net
 ## How do I use it?
 
 You can download the latests build of Gedis at: 
-    http://github.com/xetorthio/gedis/downloads
+    (http://github.com/xetorthio/gedis/downloads)
 
 And the latests build of Jedis at: 
-    http://github.com/xetorthio/jedis/downloads
+    (http://github.com/xetorthio/jedis/downloads)
     
 You need both to run this client.
     
