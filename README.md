@@ -10,9 +10,14 @@ Meet us on IRC: ##jedis on freenode.net
 
 ## How do I use it?
 
-You can download the latests build at: 
+You can download the latests build of Gedis at: 
     http://github.com/xetorthio/gedis/downloads
 
+And the latests build of Jedis at: 
+    http://github.com/xetorthio/jedis/downloads
+    
+You need both to run this client.
+    
 ## License
 
 Copyright (c) 2010 Chanwit Kaewkasi and Jonathan Leibiusky 
