@@ -1,4 +1,4 @@
-apply plugin: 'java'
+apply plugin: 'groovy'
 apply plugin: 'maven'
 
 group = 'redis.clients'
@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    groovy 'org.codehaus.groovy:groovy-all:1.7.5'
+    groovy fileTree(dir: 'lib', include: '*.jar')
     testCompile 'junit:junit:4.8.1'
 }
 
