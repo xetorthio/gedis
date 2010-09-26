@@ -1,3 +1,4 @@
 .project
+.gradle
 bin/
-
+build
