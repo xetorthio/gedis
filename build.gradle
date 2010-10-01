@@ -3,7 +3,7 @@ apply plugin: 'maven'
 
 group = 'redis.clients'
 archiveBaseName = 'gedis'
-version = '1.2.0'
+version = '1.3.0'
 
 repositories {
    mavenCentral()
@@ -14,7 +14,6 @@ dependencies {
     groovy fileTree(dir: 'lib', include: '*.jar')
     testCompile 'junit:junit:4.8.1'
 }
-
 
 /*
 TODO: Customize for deployment
